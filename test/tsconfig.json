@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "mach-servicename-service",
+      "path": ".."
+    }
+  ],
+  "compilerOptions": {
+    "types": [
+      "mocha",
+      "chai",
+      "chai-as-promised",
+      "chai-datetime",
+      "chai-things",
+      "sinon-chai"
+    ],
+    "noEmit": true,
+    "rootDir": "..",
+  },
+  "include": [
+    "."
+  ],
+}

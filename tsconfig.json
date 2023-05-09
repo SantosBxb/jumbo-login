@@ -1,0 +1,15 @@
+{
+  // The following package sets the required configuration for node@18 - https://www.npmjs.com/package/@tsconfig/node18
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true /* Generates corresponding '.map' file. */,
+    "outDir": "dist" /* Redirect output structure to the directory. */,
+    "composite": true /* Enable project compilation */,
+    "noUnusedLocals": true /* Report errors on unused locals. */,
+    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+  },
+  "include": ["src/**/*", "test/**/*"]
+  // "exclude": [ "node_modules" ]
+}

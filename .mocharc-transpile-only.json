@@ -1,0 +1,6 @@
+{
+  "extends": ".mocharc.json",
+  "require": [
+    "ts-node/register/transpile-only"
+  ]
+}
